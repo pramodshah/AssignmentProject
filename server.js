@@ -19,7 +19,7 @@ mongoose.connect(uri,{useNewUrlParser:true,useUnifiedTopology:true},(err)=>{
         console.log(err);
     }
 });
-var Form = require('../models/form');
+var Form = require('./models/form');
 
 app.post('/postform',(req,res)=>{
     const {title,exam,image,status}= req.body;
