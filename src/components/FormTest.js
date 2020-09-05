@@ -64,7 +64,7 @@ const Form=()=> {
 
     
   return (
-      <div className="Form" style={{margin:"10% 30% 0% 30%"}}>
+      <div className="Form" style={{margin:"5% 30% 0% 30%"}}>
            
           
             
@@ -88,7 +88,7 @@ const Form=()=> {
             <button className="btn waves-effect waves-light #64b5f6 blue darken-1" 
             onClick={()=>postData()}>Submit</button>
 
-    <button className="btn" style={{paddingLeft:"50px"}}><Link to="/view" style={{color:"black"}}>View Data</Link>
+    <button className="btn" style={{marginLeft:"50px"}}><Link to="/view" style={{color:"black"}}>View Data</Link>
 </button>
       </div>
   )
